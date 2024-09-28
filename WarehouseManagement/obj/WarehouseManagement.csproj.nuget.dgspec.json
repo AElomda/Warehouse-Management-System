@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {}
+    "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {
+    "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
+        "projectUniqueName": "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement.csproj",
         "projectName": "WarehouseManagement",
-        "projectPath": "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
+        "projectPath": "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement.csproj",
         "packagesPath": "C:\\Users\\elomd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\WarehouseManagement\\obj\\",
+        "outputPath": "C:\\Users\\elomd\\Downloads\\Projects\\Warehouse-Management-System\\WarehouseManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elomd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [

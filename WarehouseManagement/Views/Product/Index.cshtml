@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Product>
+
+<h2>Products</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Cost</th>
+            <th>Price</th>
+            <th>Count</th>
+            <th>Category</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Cost.ToString("C")</td>
+                <td>@product.Price.ToString("C")</td>
+                <td>@product.Count</td>
+                <td>@product.Category?.Name</td>
+                <td>
+                    <a asp-page="/Index/Edit" asp-route-id="@product.Id" class="btn btn-primary">Edit</a> |
+                    <a asp-page="/Index/Details" asp-route-id="@product.Id" class="btn btn-info">Details</a> |
+                    <a asp-page="/Index/Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="/Index/Create" class="btn btn-success">Create New Product</a>
